@@ -7,8 +7,8 @@ namespace Customer_Order
     {
         static void Main(string[] args)
         {
-            string localPath1 = @"C:\Users\MURA\source\repos\DavitJimshiashvili\Homework_Day-25\Customer_Order\Customer_Order\Customers.txt";
-            string localPath2 = @"C:\Users\MURA\source\repos\DavitJimshiashvili\Homework_Day-25\Customer_Order\Customer_Order\Orders.txt";
+            string localPath1 = $@"../../../Customers.txt";
+            string localPath2 = $@"../../../Orders.txt";
             CustomersReport customersReport = new CustomersReport(localPath1);
             var customers = customersReport.GetCustomers();
             OrdersReport ordersReport = new OrdersReport(localPath2);
