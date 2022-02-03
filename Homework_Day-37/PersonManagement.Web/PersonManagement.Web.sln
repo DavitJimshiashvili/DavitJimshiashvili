@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagement.Web", "PersonManagement.Web\PersonManagement.Web.csproj", "{139BE0B7-ED92-42D3-8FF0-EECC873E5414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagement.Services", "PersonManagement.Services\PersonManagement.Services.csproj", "{030055B6-35B5-4CB9-A842-69B5546952D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{139BE0B7-ED92-42D3-8FF0-EECC873E5414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139BE0B7-ED92-42D3-8FF0-EECC873E5414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139BE0B7-ED92-42D3-8FF0-EECC873E5414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139BE0B7-ED92-42D3-8FF0-EECC873E5414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030055B6-35B5-4CB9-A842-69B5546952D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030055B6-35B5-4CB9-A842-69B5546952D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030055B6-35B5-4CB9-A842-69B5546952D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030055B6-35B5-4CB9-A842-69B5546952D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F21A388B-72F6-4656-88F4-EB11FD03BC0C}
+	EndGlobalSection
+EndGlobal
