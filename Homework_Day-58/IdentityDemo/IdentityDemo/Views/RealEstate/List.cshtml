@@ -1,0 +1,32 @@
+﻿@using RealEstateManagement.Domain;
+
+@model IEnumerable<RealEstate>
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Landed properties</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>City</th>
+            <th>Area</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var realEstate in Model)
+        {
+
+            <tr>
+                <td>@realEstate.CadastralCode</td>
+                <td>@realEstate.City</td>
+                <td>@realEstate.Area</td>
+                <td>@realEstate.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
